@@ -1,4 +1,4 @@
-# Refactoriza para que solamente te quede un renglón elegante
+# Refactoriza para que solamente te quede un renglón 
 def dummy_encrypt(string)
   string.reverse.swapcase.gsub(/[aeiou]/,"*") 
 end
